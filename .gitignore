@@ -1,4 +1,29 @@
-.env
+# Environnements virtuels
 venv/
-instance/
+env/
+
+# Fichiers compilés Python
+*.pyc
 __pycache__/
+
+# Fichiers de configuration locaux
+.env
+
+# Dossier instance de Flask
+instance/
+
+# Bases de données locales
+*.sqlite3
+
+# Fichiers de log
+*.log
+
+# macOS
+.DS_Store
+
+# Cache de tests
+.pytest_cache/
+
+# Configurations d'éditeurs
+.vscode/
+.idea/
